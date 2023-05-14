@@ -1,7 +1,7 @@
 {
-    "name": "agri-assets-portfolio",
+    "name": "commodity-exchange-chaincode",
     "version": "1.0.0",
-    "description": "Agri-assets Portfolio contract",
+    "description": "Commodity Exchange assets and trading contracts",
     "main": "dist/index.js",
     "typings": "dist/index.d.ts",
     "engines": {

@@ -15,5 +15,5 @@ npm-shrinkwrap.json
 # Compiled TypeScript files
 dist
 
-# Files created during workshop run
+# Files created during development run
 metadata.json
