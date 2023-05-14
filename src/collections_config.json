@@ -1,0 +1,23 @@
+[
+   {
+    "name": "commodityCollection",
+    "policy": "OR('org1MSP.member')",
+    "requiredPeerCount": 0,
+    "maxPeerCount": 1,
+    "blockToLive":1000000,
+    "memberOnlyRead": true,
+    "memberOnlyWrite": true
+ },
+    {
+      "name": "org1MSPPrivateCollection",
+      "policy": "OR('org1MSP.member')",
+      "requiredPeerCount": 0,
+      "maxPeerCount": 1,
+      "blockToLive":3,
+      "memberOnlyRead": true,
+      "memberOnlyWrite": false,
+      "endorsementPolicy": {
+        "signaturePolicy": "OR('org1MSP.member')"
+      }
+    }
+   ]

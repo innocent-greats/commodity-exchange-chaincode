@@ -1,0 +1,12 @@
+peer chaincode invoke -C mychannel -n livestock-portfolio -c '{"Args":["CreateLivestock",["{\"LivestockID\":\"00405\",\"FarmerId\":\"0034\",\"Species\":\"0033\",\"UnitPrice\":300,\"Weight\":120,\"TrackerID\":\"0033\",\"Location\":\"Harare\"}"]"]}' --connTimeout 15s
+
+
+"CreateLivestock",["{\"LivestockID\":\"00405\",\"FarmerId\":\"0034\",\"Species\":\"0033\",\"UnitPrice\":300,\"Weight\":120,\"TrackerID\":\"0033\",\"Location\":\"Harare\"}"] 
+
+echo "Commodity trading is the buying, selling, and trading of commodities. With this chain code, you can directly trade in commodities on the exchange markets. Commodity trading allows investors to grow their portfolios beyond regular securities. You can invest in commodity products like commodities traded agricultural products." >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/innocent-greats/commodity-exchange-chaincode.git
+git push -u origin 
